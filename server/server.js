@@ -5,7 +5,7 @@ var app = express();
 
 
 app.get('/', function (req, res) {
-    res.send('hello worlddfgsdg');
+    res.send('hello world');
 })
 
 app.get('/users', (req, res) => {
